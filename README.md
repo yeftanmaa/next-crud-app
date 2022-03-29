@@ -10,29 +10,33 @@
 
 ## 2. Installation & Set Up
 
-1. Install Node JS (If you don't have it yet)
+1. Download the zip file.
+
+2. Install Node JS (If you don't have it yet)
 
   https://nodejs.org/en/
+ 
+3. Extract the folder inside .zip to any directory you want
 
-2. Open cmd, then type:
+4. Open cmd, then type:
 
 ```bash
   npm install --global yarn
 ```
 
-3. Go to file directory with cmd, then type:
+5. Go to file directory with cmd, then type:
 
 ```bash
   yarn add next react react-dom
 ```
 
-4. Create file named `.env`, then put this text inside that file:
+6. Create file named `.env`, then put this text inside that file:
 
 ```env
   MONGO_URI = mongodb+srv://crudDB:gantengbanget@cluster0.9atoe.mongodb.net/testing?retryWrites=true&w=majority
 ```
 
-5. Start the application with command:
+7. Start the application with command:
 
 ```bash
   yarn dev or npm run dev
