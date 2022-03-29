@@ -1,0 +1,19 @@
+.pagination {
+	height: 5.6rem;
+	border-top: 4px solid $accent-2;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.pagebtn {
+	background-color: antiquewhite;
+	border: 0px;
+	width: 100px;
+	height: 5rem;
+}
+
+.pagebtn:hover {
+	background-color: aqua;
+	cursor: pointer;
+}
