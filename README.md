@@ -30,7 +30,7 @@
   yarn add next react react-dom
 ```
 
-6. Create file named `.env`, then put this text inside that file:
+6. Create file named `.env` inside `next-crud-app-master` folder, then put this text inside that file:
 
 ```env
   MONGO_URI = mongodb+srv://crudDB:gantengbanget@cluster0.9atoe.mongodb.net/testing?retryWrites=true&w=majority
